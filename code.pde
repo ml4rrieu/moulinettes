@@ -31,6 +31,7 @@ void setup() {
     duplicateIds.clear();
     int id = input.getInt(i, 0);
     String name = convertName(input.getString(i, 1), input.getString(i, 2));
+    buffer.remove(str(id));
     for (String idB : buffer.keys()) {
       // si cela match et que ce n'est pas la mm row
       if (name.equals( buffer.get(idB)) && id != int(idB) ) {  
