@@ -11,7 +11,7 @@ Table output = new Table();
 StringDict buffer = new StringDict();
 
 void setup() {
-  input = loadTable("../auteurs-biblios.csv", "header");
+  input = loadTable("leNomDeVotrefichier.csv", "header"); //!\\ indiquer le nom de votre fichier tableur
   output.setColumnTitles(new String[]{"id", "nom", "prenom", "bib-id", "labo"  });
   buffer = new StringDict();
   println("nb of autors", input.getRowCount());
