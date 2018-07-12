@@ -9,3 +9,13 @@ en sortie le programme exporte une table où les auteurs identifiés comme simil
 
 langage : Processing (vers. 3.3.6)
 
+##Tuto
+1. télécharger & installer Processing
+2. lancer Processing
+3. crééer un nouveau projet
+4. aller dans le dossier correspondant à ce projet et enregistrer votre table (.csv)
+5. s'assurer que le nom de votre table correspond à celui indiquer dans le code (ligne 11)
+6. excécuter le code
+7. aller dans le dossier du projet et ouvrir le fichier *doublonsAuteurs.csv*
+
+
