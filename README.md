@@ -14,7 +14,7 @@ langage : Processing (vers. 3.3.6)
 2. lancer Processing
 3. crééer un nouveau projet
 4. aller dans le dossier correspondant à ce projet et enregistrer votre table (.csv)
-5. s'assurer que le nom de votre table correspond à celui indiquer dans le code (ligne 11)
+5. s'assurer que le nom de votre table correspond à celui indiquer dans le code (ligne 14)
 6. excécuter le code
 7. aller dans le dossier du projet et ouvrir le fichier *doublonsAuteurs.csv*
 
