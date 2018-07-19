@@ -1,9 +1,14 @@
 /**
-getSimilarAuthors
+Ce programme permet d'extraire, à partir d'une liste d'auteurs, les formes auteurs similaires.
+La comparaison entre auteurs est simple : suppression de la casse, des espaces et des signes de ponctuation suivant : '-.
+En entrée le programme charge une table qui doit avoir les trois colonnes suivantes id, nom, prenom
+en sortie le programme exporte une table où les auteurs identifiés comme similaires sont placés à la suite des autres.
+
 extract dupicate authors
 
 can be improved
 ML 2018
+CC-BY
 */
 
 Table input = new Table();
