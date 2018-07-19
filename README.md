@@ -1,7 +1,7 @@
 # Moulinettes
-I gather here some code I made for managing data about publications.
+I gather here some code I have made for managing data about scholar publications, like authors names, DOIs, authors affiliations ...
 
-langage : Processing (vers. 3.3.6)
+language : [Processing](https://processing.org/) 
 
 ## General tutorial
 1. download and laucnh Processing
