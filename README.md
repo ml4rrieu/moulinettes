@@ -1,7 +1,7 @@
 # Moulinettes
 I gather and share here some useful codes I have made dealing with data in scholarly communication, like authors duplication, DOIs identification, documents types etc.  
 
-language used is  [Processing](https://processing.org/) 
+language used is  [Processing](https://processing.org/) OR Pyton
 
 ## General tutorial
 1. download and launch Processing
