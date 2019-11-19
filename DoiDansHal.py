@@ -1,7 +1,7 @@
-#Programme qui prend en entrée une liste de DOI et récupère via l'API de Hal les données suivante :
-# lien Doi, présence dans hal, lien de la ressource dans Hal, résultat du champs linkExtId_s
-#ML 2019 07 
-#copyleft
+'''Programme qui prend en entré une liste de DOIs et récupère via l'API de Hal les valeurs des champs suivants :
+ halId_s,fileType_s,linkExtId_s
+ML 2019 07 
+copyleft'''
 
 import urllib.request, urllib.parse, urllib.error
 import json, csv
