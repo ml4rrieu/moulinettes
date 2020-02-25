@@ -1,10 +1,10 @@
 import requests
 
-#un fichier texte de sortie pour coller la réponse de sword
-out = open('04-zconsol.txt', 'w') 
+#txt file to write the requests answer
+out = open('feedback.txt', 'w') 
 
 url = 'https://api-preprod.archives-ouvertes.fr/sword/hal'
-service = 'https://api.archives-ouvertes.fr/sword/servicedocument'
+# do it manually, service is 'https://api.archives-ouvertes.fr/sword/servicedocument' 
 	
 #ou application/zip pour charger les fichiers
 headers = {
@@ -12,15 +12,13 @@ headers = {
     'Content-Type': 'text/xml',
 }
 
-
-#data = open('ART.xml', encoding='utf-8')
 xmlfile = open('./TEI/ART.xml', encoding='utf-8')
 print(xmlfile)
 print('TEI has been loaded')
 
 response = requests.post(url, headers=headers, data=xmlfile, auth=('user', 'pass'))
 
-out.write(response.text)# copier la réponse de sword dans fichier txt
+out.write(response.text)# parse answer to the txt file
 
 print("done")
 xmlfile.close()
