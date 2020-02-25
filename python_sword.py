@@ -6,7 +6,7 @@ out = open('feedback.txt', 'w')
 url = 'https://api-preprod.archives-ouvertes.fr/sword/hal'
 # do it manually, service is 'https://api.archives-ouvertes.fr/sword/servicedocument' 
 	
-#ou application/zip pour charger les fichiers
+#or Content-Type : application/zip to upload pdf file
 headers = {
     'Packaging': 'http://purl.org/net/sword-types/AOfr',
     'Content-Type': 'text/xml',
@@ -27,7 +27,7 @@ out.close()
 
 
 '''
-documentation SWORD HAL : https://api.archives-ouvertes.fr/docs/sword
+SWORD HAL documentation : https://api.archives-ouvertes.fr/docs/sword
 fichier TEI pour TEST : https://api.archives-ouvertes.fr/documents/art.xml
 
 la méthode CURL présente dans la doc
