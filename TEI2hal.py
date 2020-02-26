@@ -1,3 +1,7 @@
+'''
+entrée : notice en XML/TEI
+résultat : notice dans Hal
+'''
 import requests
 
 #txt file to write the requests answer
@@ -13,11 +17,10 @@ headers = {
 }
 
 xmlfile = open('./TEI/ART.xml', encoding='utf-8')
-print(xmlfile)
+xmlfile = xmlfile.read() #the file has to be read or dealy for transfert is very  long
 print('TEI has been loaded')
 
 response = requests.post(url, headers=headers, data=xmlfile, auth=('user', 'pass'))
-
 out.write(response.text)# parse answer to the txt file
 
 print("done")
