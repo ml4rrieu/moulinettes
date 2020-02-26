@@ -1,12 +1,11 @@
 /**
 Ce programme permet d'extraire, à partir d'une liste d'auteurs, les formes auteurs similaires.
-La comparaison entre auteurs est simple : suppression de la casse, des espaces et des signes de ponctuation suivant : '-.
-En entrée le programme charge une table qui doit avoir les trois colonnes suivantes id, nom, prenom
-en sortie le programme exporte une table où les auteurs identifiés comme similaires sont placés à la suite des autres.
-
-extract dupicate authors
+La comparaison entre auteur est simple : suppression de la casse, des espaces et des signes de ponctuation suivant : '-.
+Entrée : table avec id, nom, prenom
+Sortie : table où les formes similaires d'auteurs sont placées à la suite des autres
 
 can be improved
+made with Processing
 ML 2018
 CC-BY
 */
@@ -16,7 +15,7 @@ Table output = new Table();
 StringDict buffer = new StringDict();
 
 void setup() {
-  input = loadTable("leNomDeVotrefichier.csv", "header"); //!\\ indiquer le nom de votre fichier tableur
+  input = loadTable("leNomDeVotrefichier.csv", "header"); 
   output.setColumnTitles(new String[]{"id", "nom", "prenom", "bib-id", "labo"  });
   buffer = new StringDict();
   println("nb of autors", input.getRowCount());
