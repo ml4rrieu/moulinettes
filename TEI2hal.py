@@ -1,6 +1,6 @@
 '''
 entrée : notice en XML/TEI
-résultat : notice dans Hal
+résultat : notice versée dans Hal
 '''
 import requests
 
