@@ -8,23 +8,25 @@ import requests
 out = open('feedback.txt', 'w') 
 
 url = 'https://api-preprod.archives-ouvertes.fr/sword/hal'
-# do it manually, service is 'https://api.archives-ouvertes.fr/sword/servicedocument' 
+# or manually, service is https://api-preprod.archives-ouvertes.fr/sword/upload 
 	
-#or Content-Type : application/zip to upload pdf file
-headers = {
-    'Packaging': 'http://purl.org/net/sword-types/AOfr',
-    'Content-Type': 'text/xml',
-}
 
-xmlfile = open('./TEI/ART.xml', encoding='utf-8')
-xmlfile = xmlfile.read() #the file has to be read or dealy for transfert is very  long
+head = {
+	'Packaging': 'http://purl.org/net/sword-types/AOfr',
+   	'Content-Type': 'text/xml',
+   	'X-Allow-Completion' :None
+	}
+# if file : Content-Type : application/zip to upload pdf file
+
+xmlfh = open('./TEI/ART.xml')
+xmlcontent = xmlfh.read() #the file has to be read or delay for transfert is very long
 print('TEI has been loaded')
 
-response = requests.post(url, headers=headers, data=xmlfile, auth=('user', 'pass'))
+response = requests.post(url, headers=headers, data=xmlcontent, auth=('user', 'pass'))
 out.write(response.text)# parse answer to the txt file
 
 print("done")
-xmlfile.close()
+xmlfh.close()
 out.close()
 
 
