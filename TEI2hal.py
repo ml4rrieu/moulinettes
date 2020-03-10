@@ -22,7 +22,7 @@ xmlfh = open('./TEI/ART.xml')
 xmlcontent = xmlfh.read() #the file has to be read or delay for transfert is very long
 print('TEI has been loaded')
 
-response = requests.post(url, headers=headers, data=xmlcontent, auth=('user', 'pass'))
+response = requests.post(url, headers=head, data=xmlcontent, auth=('user', 'pass'))
 out.write(response.text)# parse answer to the txt file
 
 print("done")
