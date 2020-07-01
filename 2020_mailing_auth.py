@@ -67,8 +67,8 @@ for mail, uris in mailNuris.items():
 	msg = MIMEMultipart()
 	message = message_template.substitute( TITLE= title_and_link )
 
-	msg['From']="hal.bib@uvsq.fr"
-	msg['To']="m@larri.eu"
+	msg['From']="your email"
+	msg['To']="researcher mail"
 	msg['Subject']="Pensez à partager votre article dans HAL "+title[0]	
 
 	# ____ add body to msg
