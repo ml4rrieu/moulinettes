@@ -6,7 +6,7 @@ index,state,type,lien hal,open access,qui traite,traité ?,commentaire,mail corr
 78,new,ART,https://hal.archives-ouvertes.fr/hal-02876608,closed,pesronneA,ok ,,aziz.zaanan@aphp.fr,
 85,new,ART,https://hal.archives-ouvertes.fr/hal-02876615,closed,pesronneA,ok,,caroline.moine@uvsq.fr,
 86,new,ART,https://hal.archives-ouvertes.fr/hal-02876616,closed,pesronneB,ok,,caroline.moine@uvsq.fr,
-94,new,ART,https://hal.archives-ouvertes.fr/
+9,new,COMM,https://hal.archives-ouvertes.fr/hal-02677090,closed,pesronneB,ok,,jingwei.zuo@uvsq.fr,
 
 '''
 
