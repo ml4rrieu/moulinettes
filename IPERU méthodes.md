@@ -37,7 +37,7 @@ Résultat : 133 références repérées
 
 
 code processing
-`
+```processing
 ML 2016-05-30
 
 Table input ; 
@@ -68,7 +68,7 @@ void setup() {
   exit();
 }
 
-`
+```
 
 ### METHODE DEUX correspondance laboratoire ET tutelle
 
@@ -79,7 +79,7 @@ Résultat : 219 affiliations repérées
 Remarque : Une vérification manuelle à été nécessaire car un laboratoire est un faux ami : LISIS fait tantôt référence à un laboratoire de l’UPEM (Laboratoire Interdisciplinaire Sciences Innovations Sociétés) tantôt à un laboratoire de l’IFFSTAR (Laboratoire Instrumentation, Simulation et Informatique scientifique).
 
 *code processing*
- `
+```processing
  ML 2016-05-30
 Table input ; 
 String[] labo = {"ACP", "3350", "DICEN", "4420", "ERUDITE", "437", "3435", 
@@ -138,4 +138,4 @@ String isItAnUpemRef(String in) {
   return answer;
 }
 
-`
+```
