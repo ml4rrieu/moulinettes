@@ -1,6 +1,6 @@
 
-/**
-TITRE : méthodologie et code réalisé pour IPERU 2016 à l'UPEM
+
+# méthodologie et code réalisé pour IPERU 2016 à l'UPEM
 
 #Introduction
 L’OST (Observatoire des sciences et techniques) dirige un projet nommé IPERU (Indicateurs de Production des Établissements de Recherche Universitaire) qui a pour fin d’établir des indicateurs de productions sur les articles publiés annuellement par les établissements de la recherche. 
