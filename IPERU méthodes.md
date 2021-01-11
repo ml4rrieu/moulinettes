@@ -229,7 +229,7 @@ aff2treat["hospital_inside"] = aff2treat.apply(lambda row : deduce_hospital(row)
 #____4_______________________________________
 ## gather all 3 precedent filters in is_uvsq column
 
-aff2treat["is_uvsq"] = (aff2treat["uvsq_inside"]) | (aff2treat["lab_inside"]) #| (aff2treat["hospital_inside"])
+aff2treat["is_uvsq"] = (aff2treat["uvsq_inside"]) | (aff2treat["lab_inside"]) | (aff2treat["hospital_inside"])
 print("nb of aff finded", len(aff2treat[ aff2treat["is_uvsq"]].index) )
 
 aff2treat.to_csv("./data_out/all_aff_automat_deduction.csv")
