@@ -70,14 +70,14 @@ nb d'affiliations :  93182
 
 nb d'affiliations à traiter (nouvelles et anciennes non repérées) : 93179
 
-nb d'affiliations validées : 2757
+nb d'affiliations validées : 2974
 
-nb de publication correspondant : 2235
+nb de publication correspondant : 2317
 
 nb de publication trouvées dans le cadre du [Baromètre sicence ouverte uvsq en 2019](https://github.com/ml4rrieu/barometre_science_ouverte_uvsq) : 2869
 
 <br /><br />
-Donc l'OST calcul des indicateurs sur maximum 78 % des publications de l'université.
+Donc l'OST calcul des indicateurs sur maximum 81 % des publications de l'université.
 (en réalité c'est moins car le périmètre de l'OST inclut les publications des hopitaux seuls, ce qui n'est pas inclus dans le baromètre de la science ouverte).
 
 ## Codes
