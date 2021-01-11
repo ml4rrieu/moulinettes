@@ -1,3 +1,8 @@
+# codes et méthodes réalisées dans le cadre du projet IPERU
+[2020 à l'UVSQ](#iperu-2020-%C3%A0-luvsq--retour-sur-le-rep%C3%A9rage-effectu%C3%A9-dans-le-cadre-diperu)
+
+[2016 à l'UPEM](#iperu-2016-%C3%A0-lupem--m%C3%A9thode-et-code)
+
 # IPERU 2020 à l'UVSQ : retour sur le repérage effectué dans le cadre d'IPERU
 
 Objectif : a partir d'une liste d'affiliation identifier celles qui relèvent du périmètre de l'UVSQ. Particularité :  le travail se fait au niveau des affiliations et non des publications. Aussi les noms d'auteur ne sont pas disponibles : l'identification doit se faire à partir de la lecture de l'affiliation.
