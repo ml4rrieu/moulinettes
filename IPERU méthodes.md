@@ -36,6 +36,7 @@ Exécutez le code _a_filter_all_aff.py_, qui produit la table _all_aff_automat_d
 **Étape 2** verif. manuelle
 
 2a. Vérifier manuellement ce qui a été filtré, ce qui a été identifié automatiquement et qui n'a pas été pré-coché par l'OST
+
 2b. Vérifier le résidu :  ce qui n'a pas été identifié automatiquement mais qui a été précoché par l'OST
 
 **Étape 3** consolider les données
@@ -49,7 +50,9 @@ Ajouter les résultats de l'étape 2b.
 Enregistrer la table _aff_uvsq_auto_plus_manuel.csv_
 
 **Étape 4**
-Exécutez le script "conform data" du code _b_deduce_reperage_and_conforme_data.py  (si l'affiliation n'est pas de l'uvsq (Reperage = N) il retire les valeurs de la colonne   `intra_inst3` ); 
+
+Exécutez le script "conform data" du code _b_deduce_reperage_and_conforme_data.py_ (si l'affiliation n'est pas de l'uvsq (Reperage = N) il retire les valeurs de la colonne   `intra_inst3` ); 
+
 table de sortie  _aff_uvsq_for_ost.csv_ (sep ; & windows-1252/WinLatin1 )
 
 **Étape 5**
