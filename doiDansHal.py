@@ -1,4 +1,4 @@
-'''Programme qui prend en entré une liste de DOIs et récupère via l'API de Hal les valeurs des champs suivants :
+'''Script qui prend en entré une liste de DOIs et récupère via l'API de Hal les valeurs des champs suivants :
  halId_s,fileType_s,linkExtId_s
 ML 2019 07 
 copyleft'''
